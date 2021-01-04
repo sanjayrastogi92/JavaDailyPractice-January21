@@ -11,8 +11,10 @@ public class BrowserCallUsingSwitch {
 		String browserName = sc.nextLine();
 		
 		sc.close();
+		
 		System.out.println("You've entered "+browserName+" browser");
-		switch(browserName)
+		
+		switch(browserName.toLowerCase())
 		{
 		case "chrome":
 			System.out.println("Launching chrome");
